@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live site](https://your-live-site-url.com)
+- [Solution](https://github.com/DocForLoop/social-links-profile-main.git)
+- [Live site](https://docforloop.github.io/social-links-profile-main/)
 
 ## My process
 
