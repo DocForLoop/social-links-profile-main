@@ -61,6 +61,7 @@ body {
 .social-card {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	gap: 1.5rem;
 	max-width: 24rem;
 	min-height: 100%;
@@ -136,18 +137,7 @@ body {
 main {
     display: flex;
 	flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 8vh 4vw;
-    min-height: calc(100vh - 16vh);
+    padding: 10vh 4vw;
+    min-height: calc(100vh - 20vh);
 }
-
-.attribution { 
-	font-size: 1rem; 
-	text-align: center;
-	padding: 8px;
-	color: var(--white);
- }
-.attribution a { 
-	color: var(--green)
- }
