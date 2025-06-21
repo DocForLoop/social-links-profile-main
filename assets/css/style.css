@@ -55,6 +55,7 @@ a:active {
 }
 
 body {
+	position: relative;
 	background-color: var(--grey-900);
 }
 
@@ -140,4 +141,30 @@ main {
 	align-items: center;
     padding: 0 24px;
 	min-height: 100vh;
+}
+
+.attribution {
+        position: absolute;
+        inset-block-end: 10px;
+        inset-inline: 0;
+        font-size: 11px;
+        text-align: center;
+        color: var(--white);
+    }
+
+.attribution__link {
+    color: var(--white);
+	border-radius: 3px;
+    text-decoration: underline;
+    transition: color 0.3s;
+
+}
+.attribution__link:hover {
+	color: var(--green);
+}
+
+.attribution__link:focus-visible {
+	color: var(--green);
+	outline: 3px solid var(--white);
+	outline-offset: 3px;
 }
